@@ -16,7 +16,14 @@ colors:
 body {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  background-color: #ffd24a
+  background-image: url("img/bg.jpg");
+  background-repeat: repeat;
+}
+
+body > div {
+  width: 900px;
+  margin: auto;
+  border: 1px solid #ffd24a
 }
 
 #site_header {
@@ -55,6 +62,10 @@ section {
 
 a {
   color: #1fabe5
+}
+
+li {
+  font-weight: bold
 }
 
 table {
@@ -122,7 +133,7 @@ textarea#bio {
   background-color: #1fabe5;
   border: 1px solid #1fabe5;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
