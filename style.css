@@ -1,0 +1,125 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header#site_header {
+  background: #ff8523;
+  padding: 30px 0;
+}
+
+header img {
+  padding: 0px 0 20px 35px;
+}
+
+.main_navigation a {
+  font-size: 90%;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 10px 0 0 30px;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+h2, h3 {
+  color: #1fabe5
+}
+
+section {
+  border-bottom: 3px solid #ccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 0 0 30px
+}
+
+a {
+  color: #1fabe5
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table img {
+  width: 50px
+}
+
+td {
+  padding: 10px
+}
+
+thead td {
+  border: 1px solid #046c97;
+}
+
+tbody td {
+  border: 1px solid #1fabe5;
+}
+
+thead {
+  background: #1fabe5;
+  color: #fff;
+  padding: 5px;
+}
+
+section div {
+  margin: 25px 0 25px
+}
+
+form {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 2px 20px;
+}
+
+.name {
+  color: #fff;
+  background-color: #ff8523;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 28px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+textarea#bio {
+  font-size: 14px;
+  border: 1px solid #1fabe5;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px
+}
+
+#submit_button {
+  background-color: #1fabe5;
+  border: 1px solid #1fabe5;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 20px;
+}
