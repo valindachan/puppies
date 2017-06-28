@@ -61,7 +61,7 @@ section {
   border-bottom: 3px solid #ccc;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: 0 0 0 30px
+  margin: 0 0 0 30px;
 }
 
 a {
@@ -114,10 +114,12 @@ form {
   background-color: #ff8523;
   padding: 20px;
   border-radius: 5px;
+
 }
 
 input {
-  font-size: 28px;
+  font-size: 24px;
+  margin-right: 20px;
 }
 
 label {
@@ -129,7 +131,8 @@ label {
 textarea#bio {
   font-size: 14px;
   border: 1px solid #1fabe5;
-  width: 99%;
+  width: 97%;
+  padding: 10px;
   margin-top: 10px
 }
 
